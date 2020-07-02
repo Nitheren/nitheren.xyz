@@ -12,6 +12,12 @@ footer,
 header {
  font:var(--fixfont)
 }
+pre {
+ font:var(--fixfont);
+ background:var(--codebg);
+ color:var(--codefg);
+ padding:0 4px
+}
 code {
  font:var(--fixfont);
  background:var(--codebg);
