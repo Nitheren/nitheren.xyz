@@ -1,7 +1,7 @@
 html {
 --max-width: 40em;
 --line-height: 1.5;
---varfont: 1.2em sans-serif;
+--varfont: 1.0em sans-serif;
 --fixfont: 1.0em monospace;
 --fg: #333333;
 --bg: #d9d5ba;
@@ -9,7 +9,7 @@ html {
 --codebg: #E8E5D5;
 --link-color: #333333;
 --active-color: #69825b;
---visited-color: #333333;
---hover-color: #333333;
+--visited-color: #755b82;
+--hover-color: #69825b;
 --link-decoration: none;
 }

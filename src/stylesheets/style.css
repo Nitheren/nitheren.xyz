@@ -1,42 +1,49 @@
 @import url(config.css);
 body {
- background:var(--bg);
- color:var(--fg);
- font:var(--varfont);
- max-width:var(--max-width);
- line-height:var(--line-height);
- padding:0 .5em;
- margin:1em auto;
+	background:var(--bg);
+	color:var(--fg);
+	font:var(--varfont);
+	max-width:var(--max-width);
+	line-height:var(--line-height);
+	padding:0 .5em;
+	margin:1em auto;
 }
 footer,
 header {
- font:var(--fixfont)
+	font:var(--fixfont)
 }
 pre {
- font:var(--fixfont);
- background:var(--codebg);
- color:var(--codefg);
- padding:0 4px
+	font:var(--fixfont);
+	background:var(--codebg);
+	color:var(--codefg);
+	padding:0 4px
 }
 code {
- font:var(--fixfont);
- background:var(--codebg);
- color:var(--codefg);
- padding:0 4px
+	font:var(--fixfont);
+	background:var(--codebg);
+	color:var(--codefg);
+	padding:0 4px
 }
 a {
- text-decoration:var(--link-decoration)
+	text-decoration:var(--link-decoration);
+	border-bottom:1px solid;
 }
 a:link {
- color:var(--link-color)
+	color:var(--link-color)
 }
 a:active {
- color:var(--link-color)
+	color:var(--link-color)
 }
 a:hover {
- border-bottom:1px solid;
- color:var(--hover-color)
+	border-bottom:1px solid;
+	color:var(--hover-color)
 }
 a:visited {
- color:var(--visited-color)
+	color:var(--visited-color)
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
