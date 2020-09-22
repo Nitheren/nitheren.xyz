@@ -4,7 +4,8 @@ html {
 --varfont: 1.0em sans-serif;
 --fixfont: 1.0em monospace;
 --fg: #333333;
---bg: #d9d5ba;
+--bg: #E3E3E3;
+/*--bg: #d9d5ba;*/
 --codefg: #333333;
 --codebg: #E8E5D5;
 --link-color: #333333;
